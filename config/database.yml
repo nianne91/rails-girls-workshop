@@ -9,10 +9,14 @@ default: &default
 development:
   <<: *default
   database: rails-girls-workshop_development
+  user: postgres
+  password: dankovskyisadoll3
 
 test:
   <<: *default
   database: rails-girls-workshop_test
+  user: postgres
+  password: dankovskyisadoll3
 
 production:
   <<: *default
